@@ -99,13 +99,13 @@
 /* ITINERARIO */
   
 .bgItinerario {
-	background-image: url("../images/mesa-boda-rústica-decoración-olivo-3270721732.jpg");
+	background-image: url("../images/table.jpg");
 	background-position: 50%, 50%;
 }
 
 @media only screen and (max-width: 600px) {
 	.bgItinerario {
-		background-image: url("../images/mesa-boda-rústica-decoración-olivo-3270721732.jpg");
+		background-image: url("../images/table.jpg");
 	}
 }
 
@@ -122,13 +122,13 @@
 /* GIFTS */
   
 .bgGifts {
-	background-image: url("../images/14785277406289-4242780848.jpg");
+	background-image: url("../images/imagen_sobres_x1.jpg");
 	background-position: 30% 50%;
 }
 
 @media only screen and (max-width: 600px) {
 	.bgGifts {
-		background-image: url("../images/14785277406289-4242780848.jpg");
+		background-image: url("../images/imagen_sobres_x1.jpg");
 	}
 }
 
@@ -145,13 +145,13 @@
 /* IG */
   
 .bgIg {
-	background-image: url("../images/2462862_0-280203148.jpg");
+	background-image: url("../images/imagen_fotos_x1.jpeg");
 	background-position: 30% 50%;
 }
 
 @media only screen and (max-width: 600px) {
 	.bgIg {
-		background-image: url("../images/2462862_0-280203148.jpg");
+		background-image: url("../images/imagen_fotos_x1.jpeg");
 	}
 }
 
@@ -168,13 +168,13 @@
 /* FINAL */
   
 .bgFinal {
-	background-image: url("../images/IMG_6217.jpg");
+	background-image: url("../images/final_x1.jpg");
 	background-position: 70% 50%;
 }
 
 @media only screen and (max-width: 600px) {
 	.bgFinal {
-		background-image: url("../images/IMG_6217.jpg");
+		background-image: url("../images/final_x1.jpg");
 	}
 }
 
@@ -253,7 +253,7 @@
 
 .section-final{
 	display: flex; 
-	background-image: url(..//images/IMG_6217.JPG);
+	background-image: url(..//images/final_x1.JPG);
 	background-position: 50% 40%; 
 	height: 50vh; 
 	width: 100%;
@@ -274,6 +274,6 @@
 	.section-final{
 	  background-position: 50% 50%; 
 	  background-attachment: scroll;
-	  background-image: url(..//images/IMG_6217.JPG);
+	  background-image: url(..//images/final_x1.JPG);
 	}
   }
