@@ -1,0 +1,279 @@
+.parallax__container {
+	clip: rect(0, auto, auto, 0);
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -100;
+}
+.parallax__container .parallax {
+	/* can be put in a seperate class for better control */
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	position: fixed;
+	top: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	width: 100%;
+}
+
+.SobreColor {
+	filter: invert(7%) sepia(0%) saturate(13%) hue-rotate(192deg) brightness(15%) contrast(104%);
+}
+
+.sombrasobre {
+	filter: drop-shadow(0 0 0.75 rgb(0, 0, 0));
+}
+
+/* PORTADA */
+.section-portada{
+	display: flex; 
+	background-image: url(..//images/portada1.jpg);
+	background-position: 10% 35%;
+	height: 80vh;
+	width: 100%;
+	position: relative;
+  }
+  
+  .section-portada::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  @media only screen and (max-width: 600px) {
+	.section-portada{
+		background-position: 55% 50%;
+		height: 50vh;
+		background-attachment: scroll;
+		background-image: url(..//images/portada1.jpg);
+	}
+  }
+
+/* COUNTER */
+
+.section-counter{
+	display: flex; 
+	background-image: url(..//images/portada2.jpg);
+	background-position: 55% 50%;
+	height: 80vh;
+	width: 100%;
+	position: relative;
+  }
+  
+  .section-counter::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .altura{
+	height: 100vh;
+  }
+
+  @media only screen and (max-width: 600px) {
+	.section-counter{
+		background-position: 55% 50%;
+		height: 40vh;
+		background-attachment: scroll;
+		background-image: url(..//images/portada2.jpg);
+	}
+	.altura{
+		height: 45vh;
+	}
+  }
+
+/* ITINERARIO */
+  
+.bgItinerario {
+	background-image: url("../images/mesa-boda-rústica-decoración-olivo-3270721732.jpg");
+	background-position: 50%, 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.bgItinerario {
+		background-image: url("../images/mesa-boda-rústica-decoración-olivo-3270721732.jpg");
+	}
+}
+
+.bgItinerario::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* GIFTS */
+  
+.bgGifts {
+	background-image: url("../images/14785277406289-4242780848.jpg");
+	background-position: 30% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.bgGifts {
+		background-image: url("../images/14785277406289-4242780848.jpg");
+	}
+}
+
+.bgGifts::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* IG */
+  
+.bgIg {
+	background-image: url("../images/2462862_0-280203148.jpg");
+	background-position: 30% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.bgIg {
+		background-image: url("../images/2462862_0-280203148.jpg");
+	}
+}
+
+.bgIg::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* FINAL */
+  
+.bgFinal {
+	background-image: url("../images/IMG_6217.jpg");
+	background-position: 70% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.bgFinal {
+		background-image: url("../images/IMG_6217.jpg");
+	}
+}
+
+.bgFinal::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Novio */
+
+.section-novio{
+	display: flex; 
+	background-image: url(../ExtrasResources/ExtrasImages/fotomen.jpg);
+	background-position: 50% 20%; 
+	width: 100%; 
+	position: relative;
+  }
+  
+  .section-novio::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  @media only screen and (max-width: 600px) {
+	.section-novio{
+		background-position: 50% 100%; 
+	  background-attachment: scroll;
+	  background-image: url(../ExtrasResources/ExtrasImages/fotomen.jpg);
+	}
+  }
+
+
+/* Novia */
+  
+.section-novia{
+	display: flex; 
+	background-image: url(..//images/411e6f19-ae93-40d9-a196-6671650a8174.jpg);
+	background-position: 50% 10%; 
+	width: 100%; 
+	position: relative;
+  }
+  
+  .section-novia::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  @media only screen and (max-width: 600px) {
+	.section-novia{
+	background-position: 50% 0%; 
+	  background-attachment: scroll;
+	  background-image: url(..//images/411e6f19-ae93-40d9-a196-6671650a8174.jpg);
+	}
+  }
+
+
+
+
+/*/////////////////////////////////////////////////////////////////*/
+
+.section-final{
+	display: flex; 
+	background-image: url(..//images/IMG_6217.JPG);
+	background-position: 50% 40%; 
+	height: 50vh; 
+	width: 100%;
+	position: relative;
+  }
+  
+  .section-final::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  @media only screen and (max-width: 600px) {
+	.section-final{
+	  background-position: 50% 50%; 
+	  background-attachment: scroll;
+	  background-image: url(..//images/IMG_6217.JPG);
+	}
+  }

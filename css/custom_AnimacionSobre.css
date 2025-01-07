@@ -1,0 +1,97 @@
+ /* ANIMACIÃ“N DE SOBRE */
+ #sobreDiv{
+    z-index: 11;
+  }
+  
+  #sobre1{
+    position: absolute;
+   left: 0%;
+  }
+  
+  #sobre2{
+    float: left;
+   position: absolute;
+   right: 0%;
+  }
+  
+  .sobreSize{
+    height: 100vh;
+    z-index: 10;
+  }
+  
+  .posAbsolute{
+   position: absolute;
+    position: absolute;
+  }
+  
+  .sello{
+   position: absolute;
+   z-index: 11;
+   top: calc(50% - 50px);
+   left: calc(50% - 50px);
+  }
+  
+  .moved {
+   transform: translate(-100vh); /* Equivalente a translateX(10px) */
+   background-color: transparent;
+   transition: all 2s ease-in-out;
+   z-index: 100;
+  }
+  
+  .moved2 {
+   transform: translate(100vh); /* Equivalente a translateX(10px) */
+   background-color: transparent;
+   transition: all 2s ease-in-out;
+   z-index: 100;
+  }
+  
+  .selloAnimation {
+    width: 100px;
+    height: 100px;
+    animation: crescendo 1.4s alternate infinite ease-in;
+  }
+  
+  @keyframes crescendo {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.4);}
+  }
+
+  @keyframes move {
+    0%   {transform: translate(10px);}
+    100% {transform: translate(-10px);}
+  }
+
+  @media only screen and (max-width: 600px) {
+    .fixReproductorControl {
+      width: 4.5rem;
+      height: 4.5rem;
+      right: 0.5rem;
+      background-color: rgba(59, 56, 58, 0.92);
+    }
+  }
+
+  .fixReproductorControl {
+      color: white;
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      width: 4rem;
+      height: 4rem;
+      text-align: center;
+      cursor: pointer;
+      background-color: rgba(59, 56, 58, 0.6);
+      z-index: 1005;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .fixReproductorControl i {
+        line-height: 4.5rem;
+        font-size: 3.2rem;
+    }
+  }
+  .fixReproductorControl i {
+      line-height: 4rem;
+      font-size: 2.5rem;
+  }
+  
+  /* Finalizan estilos animacion de sobre */
